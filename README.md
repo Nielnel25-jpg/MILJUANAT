@@ -40,6 +40,4 @@ Exam Readiness: Predictive score modeling based on historical data.
 
 AI Question Generator: Auto-generates practice questions targeting class weak spots
 
-Exam Readiness: Predictive score modeling based on historical data.
 
-AI Question Generator: Auto-generates practice questions targeting class weak spots.
