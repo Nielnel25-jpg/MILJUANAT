@@ -36,7 +36,7 @@ AI & Predictions (Nice-to-Have)
 
 AI Study Plan: Two-paragraph personalized revision plan for weakest topics.
 
-Exam Readiness: Predictive score modeling based on historical data.
+Exam Readiness: Predictive score modeling based on the historical data.
 
 AI Question Generator: Auto-generates practice questions targeting class weak spots
 
