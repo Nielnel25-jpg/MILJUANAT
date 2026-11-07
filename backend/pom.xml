@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.miljuanat</groupId>
+    <groupId>com.csit321g4.miljuanat</groupId>
     <artifactId>skillpulse</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>skillpulse</name>

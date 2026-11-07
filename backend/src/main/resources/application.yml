@@ -1,13 +1,18 @@
 spring:
+  application:
+    name: skillpulse
   datasource:
-    url: jdbc:mysql://localhost:3306/skillpulse?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
-    username: root
-    password:
+    # PostgreSQL default. For MySQL use e.g. jdbc:mysql://localhost:3306/skillpulse
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/skillpulse}
+    username: ${DB_USERNAME:skillpulse}
+    password: ${DB_PASSWORD:skillpulse}
   jpa:
     open-in-view: false
-    database-platform: org.hibernate.dialect.MariaDBDialect
     hibernate:
       ddl-auto: ${DDL_AUTO:update}
+    properties:
+      hibernate:
+        format_sql: false
 
 server:
   port: ${PORT:8080}
